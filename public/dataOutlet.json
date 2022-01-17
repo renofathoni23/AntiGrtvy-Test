@@ -1,0 +1,65 @@
+[
+    {
+        "tipe": "Sales, Service, Sparepart, Body Paint",
+        "nama": "Suzuki NJS SOEKARNO - HATTA",
+        "noTelp": "(022) 6204645",
+        "alamat": "JL.Soekarno Hatta No.289 Bandung 40234",
+        "image": "../../assets/images/image 15 (1).png"
+    },
+
+    {
+        "tipe": "Sales, Service, Sparepart",
+        "nama": "SUZUKI NJS CIBEUREUM",
+        "noTelp": "(022) 6204645",
+        "alamat": "JL. Raya Cibeureum 48 B Bandung",
+        "image": "../../assets/images/image 15(2).png"
+    },
+
+    {
+        "tipe": "Sales, Service, Sparepart",
+        "nama": "SUZUKI NJS BUAH BATU",
+        "noTelp": "(022) 7300723",
+        "alamat": "JL. Soekarno - Hatta No. 513 Bandung",
+        "image": "src/assets/images/image 15(3).png"
+    },
+
+    {
+        "tipe": "Sales, Service, Sparepart",
+        "nama": "SUZUKI NJS AHMAD YANI",
+        "noTelp": "(022) 7101655",
+        "alamat": "JL. Jenderal Ahmad Yani 259 Bandung",
+        "image": "src/assets/images/image 15(4).png"
+    },
+
+    {
+        "tipe": "Sales",
+        "nama": "SUZUKI NJS KOPO",
+        "noTelp": "(022) 5422259",
+        "alamat": "JL. Kopo (Sayati) 260 C Bandung",
+        "image": "src/assets/images/image 15(5).png"
+    },
+
+    {
+        "tipe": "Sales",
+        "nama": "SUZUKI NJS DAGO",
+        "noTelp": "(022) 6002512",
+        "alamat": "JL. IR.H. Juanda (Dago) No. 75 Bandung",
+        "image": "src/assets/images/image 15(6).png"
+    },
+
+    {
+        "tipe": "Sales, Service, Sparepart",
+        "nama": "SUZUKI NJS SETIABUDHI",
+        "noTelp": "(022) 2030787",
+        "alamat": "JL. DR. Setiabudhi No. 78 Bandung",
+        "image": "src/assets/images/image 15(7).png"
+    },
+
+    {
+        "tipe": "Sales, Service, Sparepart",
+        "nama": "SUZUKI NJS RANCAEKEK",
+        "noTelp": "(022) 87836800",
+        "alamat": "JL. Raya Rancaekek Cipasir KM. 22 Rancaekek",
+        "image": "src/assets/images/image 15(8).png"
+    }
+]
