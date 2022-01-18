@@ -1,0 +1,15 @@
+.card-news{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: block;
+    position: relative;
+    width: 420px;
+    border-radius: 8px;
+    background-color: white;
+    margin: 20px 0 15px 0;
+}
+
+.img-news{
+    width: 420px;
+    border-radius: 8px 8px 0 0;
+}
+

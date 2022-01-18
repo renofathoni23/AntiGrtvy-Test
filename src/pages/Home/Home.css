@@ -1,6 +1,7 @@
 .container{
     max-width: 450px;
     margin: auto;
+    align-items: center;
 }
 
 .row{
@@ -18,16 +19,61 @@
     width: 100%;
     display: block;
     position: relative;
-    padding-top: 20px;
-    padding-bottom: 100px;
+    padding-top: 40px;
+    padding-bottom: 150px;
 }
 
 .container-outlet{
     position: relative;
-    margin-top: -115px;
+    margin-top: -135px;
 }
 
 .home-title{
     color: white;
     font-size: 20px;
 }
+
+.container-news{
+    position: relative;
+}
+
+.upper{
+    font-size: 18px;
+}
+
+.lower{
+    margin-top: 3px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.news{
+    margin-top: 50px;
+}
+
+.info-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-information{
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid #163c80;
+    width: 200px;
+    color: #163c80;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.button-information:hover{
+    background-color: #163c80;
+    color: white;
+    cursor: pointer;
+}
+
+

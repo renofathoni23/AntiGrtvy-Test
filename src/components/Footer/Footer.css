@@ -1,0 +1,163 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-items{
+    display: flex;
+    flex-direction: row;
+}
+
+.item{
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0 1rem 0 1rem;
+    padding: 30px 0 30px 0;
+    color: black;
+
+}
+
+.item-a{
+    text-decoration: none;
+    color: black;
+}
+
+.item-a:hover{
+    color: #095484;
+}
+
+.line{
+    border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+    width: 95%;
+}
+
+.address-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.container-map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.maps-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 17px;
+    border: 2px solid #163c80;
+    width: 200px;
+    padding: 10px;
+    transition: 0.2s ease-in;
+    color: #163c80;
+    text-decoration: none;
+}
+
+.maps-wrapper:hover{
+    background-color: #163c80;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.telp-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px 0 25px 0;
+    font-size: 17px;
+    border: 2px solid #163c80;
+    width: 200px;
+    padding: 10px;
+    background-color: #163c80;
+    color: white;
+    text-decoration: none;
+}
+
+.icon-footer{
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.address-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.office-name{
+    font-size: 17px;
+}
+
+.address{
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: -10px;
+}
+
+.map-words{
+    font-size: 14px;
+    padding-top: 2.5px;
+}
+
+.notelp-words{
+    font-size: 15px;
+}
+
+.hotline-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.hotline-title{
+    font-size: 17px;
+}
+
+.logo-hotline{
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+}
+
+.logo-suzuki{
+    margin: 15px 0 15px 0;
+}
+
+.logo-ecstar{
+    margin-bottom: 35px;
+}
+
+.download-title{
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.rights-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    color: white;
+}
+
+.rights-section{
+    width: 100%;
+    background-color: #163c80;
+    padding: 20px;
+}
+
+.rights-word{
+    font-weight: normal;
+    font-size: 15px;
+}
