@@ -1,19 +1,21 @@
 import React from 'react'
 import "./CardNews.css"
-import img from "../../assets/images/image 8.png"
+
 
 function CardNews({news}) {
     return (
         <div>
             <div className='card-news'>
-                <div className='card-upper'>
-                    <img className='img-news' src={img}></img>
-                </div>
+                <a className='wrapper-list-news' href='#'>
+                    <div className='card-upper'>
+                        <img className='img-news' src={news.image}></img>
+                    </div>
 
-                <div className='card-buttom'>
-                    <span>{news.date}</span>
-                    <h3>{news.title}</h3>
-                </div>
+                    <div className='card-buttom'>
+                        <span className='news-date'>{news.date}</span>
+                        <h4 className='news-title'>{news.title}</h4>
+                    </div>
+                </a>
             </div>
         </div>
     )

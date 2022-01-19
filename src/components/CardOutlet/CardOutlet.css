@@ -83,3 +83,12 @@
     cursor: pointer;
 }
 
+.wrapper-list-outlet{
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper-list-outlet:hover{
+    color: #095484;;
+}
+

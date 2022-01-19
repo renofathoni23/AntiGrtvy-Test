@@ -6,32 +6,33 @@ import { BsFillTelephoneFill } from "react-icons/bs"
 
 function CardOutlet({outlet}) {
     return (
-        <div>
+        
             <div className='card'>
-                <div className='card-upper'>
-                    <img src={image} className='img-outlet'></img>
-                </div>
-                <div className='card-buttom'>
-                    <h3 className='tipe'>{outlet.tipe}</h3>
-                    <h2 className='nama'>{outlet.nama}</h2>
-                    <div className='info-telp'>
-                        <BsFillTelephoneFill className='telp-icon'></BsFillTelephoneFill>
-                        <span className='notelp'>{outlet.noTelp}</span>
+                <a href='#' className='wrapper-list-outlet'>
+                    <div className='card-upper'>
+                        <img src={image} className='img-outlet'></img>
                     </div>
-                    
-                    <div className='info-loct'>
-                        <FaMapMarkerAlt className='location-icon'></FaMapMarkerAlt>
-                        <span className='alamat'>{outlet.alamat}</span>
-                    </div>
+                    <div className='card-buttom'>
+                        <h3 className='tipe'>{outlet.tipe}</h3>
+                        <h2 className='nama'>{outlet.nama}</h2>
+                        <div className='info-telp'>
+                            <BsFillTelephoneFill className='telp-icon'></BsFillTelephoneFill>
+                            <span className='notelp'>{outlet.noTelp}</span>
+                        </div>
+                        
+                        <div className='info-loct'>
+                            <FaMapMarkerAlt className='location-icon'></FaMapMarkerAlt>
+                            <span className='alamat'>{outlet.alamat}</span>
+                        </div>
 
-                    <div className='button-wrapper'>
-                        <a className='button-outlet'>
-                            Kunjungi Website Outlet
-                        </a>
+                        <div className='button-wrapper'>
+                            <a className='button-outlet'>
+                                Kunjungi Website Outlet
+                            </a>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
-        </div>
     )
 }
 

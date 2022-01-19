@@ -13,3 +13,20 @@
     border-radius: 8px 8px 0 0;
 }
 
+.wrapper-list-news{
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper-list-news:hover{
+    color: #095484;;
+}
+
+.news-date{
+    color: gray;
+    font-size: 14px;
+}
+
+.news-title{
+    margin-top: 8px;
+}

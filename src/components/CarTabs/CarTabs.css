@@ -1,0 +1,159 @@
+
+.active-tabs{
+    background: white;
+    border-bottom: 1px solid transparent;
+}
+
+.active-tabs::before{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(2450%);
+    width: calc(100% + 2px);
+    height: 3px;
+    background-color: white;
+}
+
+.container-tabs{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container-car{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 500px;
+    height: auto;
+    margin: 100px auto 0;
+    word-break: break-all;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.car-tabs{
+    padding: 15px;
+    text-align: center;
+    width: 50%;
+    cursor: pointer;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+    background-color: transparent;
+}
+
+.containter-detail-car{
+    flex-grow: 1;
+}
+
+.content{
+    background: white;
+    flex-direction: row;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.active-content{
+    display: block;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+}
+
+.line{
+    border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+    width: 95%; 
+}
+
+.car-detail{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.image-car{
+    width: 180px;
+    margin-top: 10px;
+}
+
+.container-find-car{
+    text-align: center;
+    background-color: #163c80;
+    color: white;
+
+}
+
+.car-tipe{
+    font-size: 15px;
+}
+
+.start-price{
+    color: gray;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.price{
+    color:#163c80;
+}
+
+.button-detail{
+    border: 1px solid rgba(31, 117, 225, 0.63);
+    font-size: 11px;
+    padding: 5px 8px 5px 8px;
+    color: #1F75E1;
+    background-color:rgba(31, 117, 225, 0.08);
+    border-radius: 3px;
+    
+}
+
+.items{
+    margin-bottom: 2px;
+}
+
+.container-button{
+    margin-top: 10px;
+}
+
+.title-find-car{
+    padding-top: 40px;
+}
+
+.container-lihat-mobil{
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.button-lihat-semua-mobil{
+    width: auto;
+    font-weight: 600;
+    margin: 100px 5px 8px 5px;
+    color: #163c80;
+    border: 2px solid #163c80;
+    text-align: center;
+    padding: 10px;
+    transition: 0.2s ease-in;
+}
+
+.button-lihat-semua-mobil:hover{
+    color: white;
+    background-color: #163c80;
+    cursor: pointer;
+}
+
+.wrapper-list{
+    text-decoration: none;
+    color: black;
+}
