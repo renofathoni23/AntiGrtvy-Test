@@ -1,0 +1,17 @@
+.container-price{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    box-shadow: 0 4px 4px rgb(234, 231, 231);
+    background-color: #f1f5f6;
+    width: 420px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.item-wrapper{
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: normal;
+}
