@@ -33,7 +33,7 @@ function CarTabs() {
         <div className='containter-detail-car'>
             <div className={toggleState === 2 ? "content active-content": "content"}>
                 {CommercialCar && CommercialCar.length > 0 && CommercialCar.map((cars)=>(
-                    <a href='#'className='wrapper-list'>
+                    <a href='/overview'className='wrapper-list'>
                         <div className='contain'>
                             <div className='details'>
                                 <div className='image-car-container'>
@@ -64,7 +64,7 @@ function CarTabs() {
 
             <div className={toggleState === 1 ? "content active-content": "content"}>
                 {PassangerCar && PassangerCar.length > 0 && PassangerCar.map((cars)=>(
-                    <a href='#' className='wrapper-list'>
+                    <a href='/overview' className='wrapper-list'>
                         <div className='contain'>
                             <div className='details'>
                                 <div className='image-car-container'>

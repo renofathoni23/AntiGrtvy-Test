@@ -8,7 +8,7 @@ function CardOutlet({outlet}) {
     return (
         
             <div className='card'>
-                <a href='#' className='wrapper-list-outlet'>
+                <a href='/outlet' className='wrapper-list-outlet'>
                     <div className='card-upper'>
                         <img src={image} className='img-outlet'></img>
                     </div>

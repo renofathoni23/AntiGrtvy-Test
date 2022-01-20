@@ -1,0 +1,45 @@
+.container-accordionComp{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 25px 0 25px 0;
+    width: 450px;
+    
+}
+
+.accord{
+    margin-bottom: 10px;
+    width: 95%;
+}
+
+.container-accordion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+}
+
+.content-item{
+    width: 50%;
+}
+
+.detail{
+    text-align: center;
+}
+
+.spesifikasi{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.typography{
+    font-weight: bold;
+}

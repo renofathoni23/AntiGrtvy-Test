@@ -54,9 +54,11 @@ div h3{
     margin: 0;
     right: -100%;
     transition: 850ms;
+    z-index: 999;
+    align-items: center;
 }
 
-.nav-menu:active{
+.nav-menu.active{
     right: 0%;
     transition: 350ms;
 }
@@ -84,4 +86,65 @@ li{
     right: 0;
 }
 
+.line-nav{
+    border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+    width: 90%;
+}
+
+.nav-logo-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.logos-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.logo-ham{
+    width: 100px;
+}
+
+.suz{
+    height: 50px;
+    width: 120px;
+    margin-top: 20px;
+}
+
+
+.hotline-nav-container{
+    width: 50%;
+}
+
+.contain-telp{
+    border: 1px solid #163c80;
+    text-align: center;
+    margin: 20px 20px 10px 20px;
+    background-color: #163c80;
+    color: white;
+    padding: 10px 70px 10px 70px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.contain-telp:hover{
+    cursor: pointer;
+}
+
+.link-telp{
+    text-decoration: none;
+    color: white;
+}
+
+.ham-items:hover{
+    cursor: pointer;
+}
+
+.beranda{
+    text-decoration: none;
+    color: black;
+}
 

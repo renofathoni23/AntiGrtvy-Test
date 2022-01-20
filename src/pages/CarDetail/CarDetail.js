@@ -6,13 +6,16 @@ import interior from "../../assets/images/xl7-interior.png"
 import eksterior from "../../assets/images/xl7-eksterior.png"
 import {PriceList} from "../../components/Price/PriceList"
 import Price from '../../components/Price/Price';
+import FloatingBooking from '../../components/FloatingBooking/FloatingBooking';
+import AccordionComp from '../../components/Accordion/AccordionComp';
 function CarDetail() {
   return (
     <div className='container'>
-        <div className='row'>
+        <div className='row-car-detail'>
             <Hero></Hero>
             <EksInTerior img={eksterior} title={"EKSTERIOR"} word={"Lihat Semua Eksterior"}></EksInTerior>
             <EksInTerior img={interior} title={"INTERIOR"} word={"Lihat Semua Interior"}></EksInTerior>
+            <AccordionComp></AccordionComp>
             <div className='container-price-car'>
                 <div className='title-price-car'>
                     <h4>DAFTAR HARGA XL7</h4>
@@ -28,6 +31,7 @@ function CarDetail() {
                     </a>
                 </div>
             </div>
+            <FloatingBooking></FloatingBooking>
         </div>
     </div>
   );

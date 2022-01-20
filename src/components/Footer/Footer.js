@@ -11,9 +11,9 @@ function Footer() {
         <div className='footer-container'>
             <div className='menu-section'>
                 <ul className='menu-items'>
-                    <li className='item'><a href='#' className='item-a'>Beranda</a></li>
+                    <li className='item'><a href='/' className='item-a'>Beranda</a></li>
                     <li className='item'><a href='#' className='item-a'>Tentang Kami</a></li>
-                    <li className='item'><a href='#' className='item-a'>Outlet</a></li>
+                    <li className='item'><a href='/outlet' className='item-a'>Outlet</a></li>
                     <li className='item'><a href='#' className='item-a'>Blog</a></li>
                     <li className='item'><a href='#' className='item-a'>Promo</a></li>
                 </ul>

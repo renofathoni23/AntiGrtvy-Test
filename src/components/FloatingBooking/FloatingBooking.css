@@ -1,0 +1,30 @@
+.floating-items{
+    width: 25%;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.booking{
+    width: 50%;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.col-item-booking{
+    border: 1px solid #163c80;
+    text-decoration: none;
+    background-color: #163c80;
+    color: white;
+    padding: 20px 300px 20px 300px;
+    border-radius: 3px;
+}
+
+.col-item-booking:hover{
+    cursor: pointer;
+}
+
+.booking-mobil{
+    font-size: 15px;
+}
